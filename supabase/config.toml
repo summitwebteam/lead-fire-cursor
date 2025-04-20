@@ -1,0 +1,35 @@
+
+project_id = "iihxdmrioehokrlwdyxb"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage", "graphql_public"]
+
+[db]
+port = 54322
+
+[studio]
+port = 54323
+
+[inbucket]
+port = 54324
+smtp_port = 54325
+pop3_port = 54326
+
+[storage]
+enabled = true
+
+[auth]
+enabled = true
+
+[realtime]
+enabled = true
+
+[edge_functions]
+[edge_functions.exchange-highlevel-token]
+verify_jwt = false
+
+[edge_functions.fetch-installed-locations]
+verify_jwt = false
+
